@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-josefins: "Josefin Sans", sans-serif;
+  --sm: 350px;
+  --md: 768px;
+  --lg: 1024px;
+  --xl: 1280px;
+  --2xl: 1536px;
+
+}
+
+body{
+  @apply bg-[#14213d]
+}
