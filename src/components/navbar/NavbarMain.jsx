@@ -12,7 +12,8 @@ const NavbarMain = () => {
     console.log(openMenu);
   };
   return (
-    <nav className="max-w-[1300px] w-full px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
+    <div className="pt-2 max-w-[1300px] w-full px-4 fixed left-[50%] -translate-x-[50%] z-20 bg-[#14213d]">
+      <nav className="flex gap-4">
       <div className="flex justify-between items-center mx-auto w-full max-w-[1200px] px-5 py-3 border-y-[0.5px] border-orange-500">
         <NavbarLogo />
         <div className={`${openMenu ? "hidden" : "block"} lg:block`}>
@@ -31,6 +32,7 @@ const NavbarMain = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 
